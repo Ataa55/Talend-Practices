@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="__e2i4GzUEe6FUoLK5OPvxQ" name="IPinter" id="__e170GzUEe6FUoLK5OPvxQ" dataPackage="__e2i4WzUEe6FUoLK5OPvxQ" Server="Localhost 127.0.0.1" FilePath="D:/Data/Data Engineering_ITI/Data Exploration and preparation/day_5/data/intake3/ip/Ip_interval_lookUP.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="" FirstLineCaption="true" EscapeType="CSV" EscapeChar="&quot;\\&quot;" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="__e2i4WzUEe6FUoLK5OPvxQ" name="default" dataManager="__e2i4GzUEe6FUoLK5OPvxQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="__e2i4mzUEe6FUoLK5OPvxQ" id="_zW1BIGzUEe6FUoLK5OPvxQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__e2i42zUEe6FUoLK5OPvxQ" label="StartIP" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__e2i5GzUEe6FUoLK5OPvxQ" label="EndIP" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__e2i5WzUEe6FUoLK5OPvxQ" label="Country" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

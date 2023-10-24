@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_tyTb4GzEEe6jRqDDSytvlw" name="Zomato" dataPackage="_tyTb4WzEEe6jRqDDSytvlw" Server="Localhost 127.0.0.1" FilePath="D:/Data/Data Engineering_ITI/Data Exploration and preparation/day_5/intake3-20231017T062812Z-001/intake3/zomotz/zomato.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" EscapeChar="&quot;\\&quot;" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_tyTb4WzEEe6jRqDDSytvlw" name="default" dataManager="_tyTb4GzEEe6jRqDDSytvlw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_tyTb4mzEEe6jRqDDSytvlw" id="_N7O8oGzEEe6jRqDDSytvlw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tyTb42zEEe6jRqDDSytvlw" label="Restaurant_ID" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tyTb5GzEEe6jRqDDSytvlw" label="Restaurant_Name" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tyTb5WzEEe6jRqDDSytvlw" label="Country_Code" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tyTb5mzEEe6jRqDDSytvlw" label="City" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tyTb52zEEe6jRqDDSytvlw" label="Address" length="103" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tyTb6GzEEe6jRqDDSytvlw" label="Locality" length="51" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tyTb6WzEEe6jRqDDSytvlw" label="Locality_Verbose" length="64" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tyTb6mzEEe6jRqDDSytvlw" label="Longitude" length="12" precision="9" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tyTb62zEEe6jRqDDSytvlw" label="Latitude" length="12" precision="9" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tyTb7GzEEe6jRqDDSytvlw" label="Cuisines" length="42" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tyTb7WzEEe6jRqDDSytvlw" label="Average_Cost_for_two" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tyTb7mzEEe6jRqDDSytvlw" label="Currency" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tyTb72zEEe6jRqDDSytvlw" label="Has_Table_booking" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tyTb8GzEEe6jRqDDSytvlw" label="Has_Online_delivery" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tyTb8WzEEe6jRqDDSytvlw" label="Is_delivering_now" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tyTb8mzEEe6jRqDDSytvlw" label="Switch_to_order_menu" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tyTb82zEEe6jRqDDSytvlw" label="Price_range" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tyTb9GzEEe6jRqDDSytvlw" label="Aggregate_rating" length="3" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tyTb9WzEEe6jRqDDSytvlw" label="Rating_color" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tyTb9mzEEe6jRqDDSytvlw" label="Rating_text" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tyTb92zEEe6jRqDDSytvlw" label="Votes" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
